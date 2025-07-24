@@ -10,6 +10,7 @@
   },
   "private": true,
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "^24.0.15",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
@@ -17,6 +18,7 @@
     "@types/webpack": "^5.28.5",
     "@types/webpack-dev-server": "^4.7.1",
     "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
     "sass": "^1.89.2",
@@ -30,8 +32,12 @@
     "webpack-dev-server": "^5.2.2"
   },
   "dependencies": {
+    "i18next": "^25.3.2",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "i18next-http-backend": "^3.0.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-i18next": "^15.6.1",
     "react-router-dom": "^7.7.0"
   }
 }

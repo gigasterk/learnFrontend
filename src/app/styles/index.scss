@@ -1,6 +1,6 @@
 @use "reset";
 @use "variables/global";
-@use "themes/normal";
+@use "themes/lite";
 @use "themes/dark";
 
 .app {
@@ -12,4 +12,13 @@
 
   min-height: 100vh;
 
+}
+
+.content-page {
+  display: flex;
+}
+
+.page-wrapper {
+  flex-grow: 1;
+  padding: 20px;
 }
